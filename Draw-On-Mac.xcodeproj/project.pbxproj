@@ -11,6 +11,8 @@
 		AA3E84C926385A280045851C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E84C826385A280045851C /* ViewController.swift */; };
 		AA3E84CB26385A290045851C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3E84CA26385A290045851C /* Assets.xcassets */; };
 		AA3E84CE26385A290045851C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3E84CC26385A290045851C /* Main.storyboard */; };
+		AA3E84D8263861440045851C /* PaintableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E84D7263861440045851C /* PaintableImageView.swift */; };
+		AA3E84DB263864C00045851C /* TransparentWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E84DA263864C00045851C /* TransparentWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AA3E84CD26385A290045851C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA3E84CF26385A290045851C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3E84D026385A290045851C /* Draw_On_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Draw_On_Mac.entitlements; sourceTree = "<group>"; };
+		AA3E84D7263861440045851C /* PaintableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintableImageView.swift; sourceTree = "<group>"; };
+		AA3E84DA263864C00045851C /* TransparentWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				AA3E84CC26385A290045851C /* Main.storyboard */,
 				AA3E84CF26385A290045851C /* Info.plist */,
 				AA3E84D026385A290045851C /* Draw_On_Mac.entitlements */,
+				AA3E84D7263861440045851C /* PaintableImageView.swift */,
+				AA3E84DA263864C00045851C /* TransparentWindow.swift */,
 			);
 			path = "Draw-On-Mac";
 			sourceTree = "<group>";
@@ -134,6 +140,8 @@
 			files = (
 				AA3E84C926385A280045851C /* ViewController.swift in Sources */,
 				AA3E84C726385A280045851C /* AppDelegate.swift in Sources */,
+				AA3E84DB263864C00045851C /* TransparentWindow.swift in Sources */,
+				AA3E84D8263861440045851C /* PaintableImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
